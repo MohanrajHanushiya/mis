@@ -227,9 +227,7 @@ $department_id=$course_id=$module_id=$academic_year=$staff_id=$weekdays=$timep=$
     </div>
 </div>
 
-  <?php 
-  if($_SESSION['user_type']=="HOD"){    
-      echo '   
+  
 <div class="text-right">
 <a href="AddTimetable.php" class="btn btn-primary ">Add</a> 
          
